@@ -1,16 +1,16 @@
-medium,category,state,T_min_C,T_max_C,density_kg_m3,cp_kJ_kgK,k_W_mK,approx_cost_USD_per_kg,limit_reason,typical_application
-Water (unpressurized),Low,Liquid,0,95,1000,4.19,0.60,0.001,Boiling at ambient pressure,Domestic hot water / district heating
-Water (pressurized),Medium,Liquid,0,200,900,4.30,0.68,0.001,Vessel pressure cost,Industrial steam accumulators
-Mineral thermal oil,Medium,Liquid,0,300,770,2.60,0.12,0.30,Thermal cracking/oxidation,Industrial process heat
-Synthetic oil (Therminol VP-1),Medium,Liquid,12,400,900,2.30,0.11,3.00,Thermal decomposition,Parabolic trough CSP
-Concrete,Medium,Solid,20,500,2200,0.85,1.50,0.05,Dehydration and cracking,Low-cost solid storage
-Hitec XL (Ca/Na/K nitrate),High,Liquid,130,500,1990,1.45,0.52,1.20,Nitrate decomposition,CSP / process heat
-Hitec (NaNO3-KNO3-NaNO2),High,Liquid,145,535,1990,1.56,0.60,0.93,Nitrite oxidation,CSP
-Solar Salt (60NaNO3-40KNO3),High,Liquid,260,565,1900,1.50,0.55,0.50,Freezing point / decomposition,Commercial tower CSP
-Cast iron,High,Solid,20,700,7200,0.56,37.0,1.00,Oxidation / creep,Compact solid storage
-Rocks / gravel (basalt),High,Solid,20,800,2700,0.95,2.00,0.03,Thermal cracking,Packed-bed storage
-Chloride salt (MgCl2-KCl-NaCl),High,Liquid,420,750,1700,1.10,0.45,0.35,Container corrosion,Gen3 CSP
-Liquid sodium,High,Liquid,100,880,850,1.30,70.0,2.00,Boiling point / safety,Nuclear / advanced CSP
-Sand / ceramic particles,High,Solid,20,1100,1600,1.00,0.30,0.05,Sintering,Sand batteries / particle CSP
-Refractory brick (magnesia),High,Solid,20,1500,3000,1.15,5.00,0.80,Refractory limit,Industrial thermal batteries
-Graphite (inert atmosphere),High,Solid,20,2000,1800,1.40,100.0,2.50,Oxidation (needs inert gas),Experimental high-temp storage
+medium,category,state,T_min_C,T_max_C,density_kg_m3,cp_kJ_kgK,k_W_mK,approx_cost_USD_per_kg,limit_reason,typical_application,references
+Water (unpressurized),Low,Liquid,0,95,1000,4.19,0.6,0.001,Boiling at ambient pressure,Domestic hot water / district heating,R4;R5
+Water (pressurized),Medium,Liquid,0,200,900,4.3,0.68,0.001,Vessel pressure cost,Industrial steam accumulators,R4;R14
+Mineral thermal oil,Medium,Liquid,0,300,770,2.6,0.12,0.3,Thermal cracking/oxidation,Industrial process heat,R1
+Synthetic oil (Therminol VP-1),Medium,Liquid,12,400,900,2.3,0.11,3.0,Thermal decomposition,Parabolic trough CSP,R1;R6
+Concrete,Medium,Solid,20,500,2200,0.85,1.5,0.05,Dehydration and cracking,Low-cost solid storage,R1;R7
+Hitec XL (Ca/Na/K nitrate),High,Liquid,130,500,1990,1.45,0.52,1.2,Nitrate decomposition,CSP / process heat,R8;R9
+Hitec (NaNO3-KNO3-NaNO2),High,Liquid,145,535,1990,1.56,0.6,0.93,Nitrite oxidation,CSP,R1;R8
+Solar Salt (60NaNO3-40KNO3),High,Liquid,260,565,1900,1.5,0.55,0.5,Freezing point / decomposition,Commercial tower CSP,R1;R2;R8
+Cast iron,High,Solid,20,700,7200,0.56,37.0,1.0,Oxidation / creep,Compact solid storage,R1;R3
+Rocks / gravel (basalt),High,Solid,20,800,2700,0.95,2.0,0.03,Thermal cracking,Packed-bed storage,R1;R3
+Chloride salt (MgCl2-KCl-NaCl),High,Liquid,420,750,1700,1.1,0.45,0.35,Container corrosion,Gen3 CSP,R10;R13
+Liquid sodium,High,Liquid,100,880,850,1.3,70.0,2.0,Boiling point / safety,Nuclear / advanced CSP,R11
+Sand / ceramic particles,High,Solid,20,1100,1600,1.0,0.3,0.05,Sintering,Sand batteries / particle CSP,R12;R13
+Refractory brick (magnesia),High,Solid,20,1500,3000,1.15,5.0,0.8,Refractory limit,Industrial thermal batteries,R1;R3
+Graphite (inert atmosphere),High,Solid,20,2000,1800,1.4,100.0,2.5,Oxidation (needs inert gas),Experimental high-temp storage,R3
